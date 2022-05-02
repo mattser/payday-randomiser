@@ -1,0 +1,19 @@
+@use "../../assets/styles/global" as *;
+
+.button-type {
+
+  button {
+    background-color: $blue;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+
+    &:hover {
+      background-color: $blueHover;
+      cursor: pointer;
+    }
+  }
+
+  
+}
